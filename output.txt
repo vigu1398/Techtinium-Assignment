@@ -1,0 +1,155 @@
+1. ----------------------------------------------------------------- TEST CASE 1 ----------------------------------------------------------------------
+
+Enter capacity: 1150
+Enter hours: 1
+{
+        Output : [ 
+        { 
+                region : New York
+                total_cost = $10150, 
+                machines : [
+                        (8XLarge, 7), 
+                        (Large, 1), 
+                        (XLarge, 1), 
+                ] 
+        },
+        { 
+                region : India
+                total_cost = $9520, 
+                machines : [
+                        (8XLarge, 7), 
+                        (Large, 3), 
+                ] 
+        },
+        { 
+                region : China
+                total_cost = $8570, 
+                machines : [
+                        (8XLarge, 7), 
+                        (Large, 1), 
+                        (XLarge, 1), 
+                ] 
+        },
+        ] 
+}
+
+
+
+
+2. ---------------------------------------------------------------- TEST CASE 2 -----------------------------------------------------------------------
+
+Enter capacity: 230
+Enter hours: 5
+{
+        Output : [ 
+        { 
+                region : New York
+                total_cost = $11000, 
+                machines : [
+                        (2XLarge, 1), 
+                        (8XLarge, 1), 
+                        (Large, 1), 
+                        (XLarge, 1), 
+                ] 
+        },
+        { 
+                region : India
+                total_cost = $10665, 
+                machines : [
+                        (2XLarge, 1), 
+                        (8XLarge, 1), 
+                        (Large, 3), 
+                ] 
+        },
+        { 
+                region : China
+                total_cost = $9450, 
+                machines : [
+                        (8XLarge, 1), 
+                        (Large, 1), 
+                        (XLarge, 3), 
+                ] 
+        },
+        ] 
+}
+
+
+
+
+3. -------------------------------------------------------------------- TEST CASE 3 -------------------------------------------------------------------
+
+Enter capacity: 100
+Enter hours: 24
+{
+        Output : [ 
+        { 
+                region : New York
+                total_cost = $24096, 
+                machines : [
+                        (4XLarge, 1), 
+                        (XLarge, 1), 
+                ] 
+        },
+        { 
+                region : India
+                total_cost = $28080, 
+                machines : [
+                        (4XLarge, 1), 
+                        (Large, 2), 
+                ] 
+        },
+        { 
+                region : China
+                total_cost = $20880, 
+                machines : [
+                        (4XLarge, 1), 
+                        (XLarge, 1), 
+                ] 
+        },
+        ] 
+}
+
+
+
+
+4.---------------------------------------------------------------------- TEST CASE 4 ------------------------------------------------------------------
+
+Enter capacity: 1100
+Enter hours: 12
+{
+        Output : [ 
+        { 
+                region : New York
+                total_cost = $118248, 
+                machines : [
+                        (2XLarge, 1), 
+                        (4XLarge, 1), 
+                        (8XLarge, 6), 
+                        (XLarge, 1), 
+                ] 
+        },
+        { 
+                region : India
+                total_cost = $112596, 
+                machines : [
+                        (2XLarge, 1), 
+                        (4XLarge, 1), 
+                        (8XLarge, 6), 
+                        (Large, 2), 
+                ] 
+        },
+        { 
+                region : China
+                total_cost = $100200, 
+                machines : [
+                        (4XLarge, 1), 
+                        (8XLarge, 6), 
+                        (XLarge, 3), 
+                ] 
+        },
+        ] 
+}
+
+
+
+
